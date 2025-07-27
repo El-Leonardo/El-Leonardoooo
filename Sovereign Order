@@ -1,14 +1,9 @@
-
-console.log("Game loaded..."):
-// --- HTML ---
-const html = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>HOI4 Mobile Lite</title>
   <style>
-    /* === CSS === */
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
       background: #1a202c;
@@ -24,6 +19,19 @@ const html = `
       background: #222;
       border-radius: 10px;
       overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>HOI4 Mobile Lite</h1>
+    <p>Game loaded... (Check console)</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
     }
     #header {
       background: #2d3748;
